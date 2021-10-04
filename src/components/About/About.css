@@ -1,0 +1,11 @@
+.About-banner{
+    padding:100px 0px 300px;
+    position: relative;
+    background:url("./about-us.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height:90vh;
+    overflow: hidden;
+}

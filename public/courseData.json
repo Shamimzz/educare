@@ -1,0 +1,76 @@
+{
+  "courses" : [
+      {
+         "id": 1,
+         "title": "The Complete React Redux Node Express MySQL Developer Course",
+         "img": "https://img-b.udemycdn.com/course/750x422/2677306_4174_2.jpg",
+         "desc": "Become indispensable to any company with the hottest IT skills. Find the right instructor for you. Choose from many topics, skill levels, and languages. PySpark. Courses in 60+ Languages. Stack Implementation.",
+         "price": "$100",
+         "student": 456,
+         "duration": "5 Hr 30 Min"
+       },
+       {
+         "id": 2,
+         "title": "Photography Crash Course for Photographer",
+         "img": "http://themeturn.com/tf-db/eduhash/theme/assets/images/course/course-2.jpg",
+         "desc": "A crash course in how to use your camera. You will learn tips and tricks used by professional photographers.This course includes. You will learn tips and tricks used by professional photographers.",
+         "price": "$200",
+         "student": 556,
+         "duration": "2 Hr 30 Min"
+       },
+       {
+         "id": 3,
+         "title": "Information About UI/UX Design Degree",
+         "img": "http://themeturn.com/tf-db/eduhash/theme/assets/images/course/course-3.jpg",
+         "desc": "UI design can be a very good career, providing ample opportunities and a competitive salary. There are, in fact Websites, apps, and software are everywhere now, so UI Designers have a very real influence on the look and feel of the digital space.",
+         "price": "$300",
+         "student": 856,
+         "duration": "7 Hr 20 Min"
+       },
+       {
+         "id": 4,
+         "title": "React – The Complete Guide (React Router)",
+         "img": "http://themeturn.com/tf-db/eduhash/theme/assets/images/course/course-1.jpg",
+         "desc": "Become indispensable to any company with the hottest IT skills. Find the right instructor for you. Choose from many topics, skill levels, and languages. PySpark. TensorFlow Library. Courses in 60+ Languages. Stack Implementation. 30-Day Money Guarantee.",
+         "price": "$100",
+         "student": 456,
+         "duration": "5 Hr 30 Min"
+       },
+       {
+         "id": 5,
+         "title": "Microsoft Access Training | Master the MS Access",
+         "img": "https://img-c.udemycdn.com/course/750x422/4326084_bba0_3.jpg",
+         "desc": "Microsoft Access Training | Master the MS Access, Create Database in Microsoft Access | Keep the Data Record in MS Access.Learn the Microsoft Access Skills",
+         "price": "$100",
+         "student": 456,
+         "duration": "5 Hr 30 Min"
+       },
+       {
+         "id": 6,
+         "title": "Java for Beginners – Learn all the Basics of Java",
+         "img": "https://img-c.udemycdn.com/course/750x422/3765238_b5df.jpg",
+         "desc": "Java for Beginners - Learn all the Basics of Java, Learn Java programming with various java projects- Understand key Java elements and be able to create basic ",
+         "price": "$250",
+         "student": 756,
+         "duration": "1 Hr 30 Min"
+       },
+       {
+         "id": 7,
+         "title": "Startup Fundraising Master course – Raise Venture Capital",
+         "img": "https://img-c.udemycdn.com/course/750x422/4321102_4d6a_2.jpg",
+         "desc": "Startup Fundraising Master course - Raise Venture Capital, Understand the complete process from pitching to Angels investor to Raising Venture Capital Funding.",
+         "price": "$500",
+         "student": 1056,
+         "duration": "5 Hr 20 Min"
+       },
+       {
+         "id": 8,
+         "title": "Javascript For Beginners Complete Course",
+         "img": "https://img-c.udemycdn.com/course/750x422/4200368_f71e_5.jpg",
+         "desc": "Javascript For Beginners Complete Course, Learn Javascript Programming Language With Practical Interaction.Learn Javascript Programming LanguageThe",
+         "price": "$640",
+         "student": 496,
+         "duration": "8 Hr 30 Min"
+       }
+  ]
+}

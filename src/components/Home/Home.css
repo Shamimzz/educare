@@ -1,0 +1,29 @@
+
+.banner{
+    padding:100px 0px 300px;
+    position: relative;
+    background:url("./images/slider_image1.jpg") 100% 0% no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+ h1.banner-content {
+            font-size: 60px;
+            line-height: 70px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+    }
+
+h1.banner-4 {
+        font-size: 80px;
+        line-height: 120px;
+}
+p.banner-4 {
+        font-size: 18px;
+        padding:0px 60px
+}
+
+.subheading{
+    font-size:20px;
+    color:#20ad96;
+}

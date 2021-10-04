@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+/* The following line can be included in your src/index.js or App.js file*/
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
+import Courses from './components/Courses/Courses';
+import NotFound from './components/NotFound/NotFound';
+import About from './components/About/About';
+import Header from './components/HeaderFooter/Header';
+import Home from './components/Home/Home';
+import Footer from './components/HeaderFooter/Footer';
+import Contact from './components/Contact/Contact';
+
+
+//Connected all the components with Routing.
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Router>
+             <Header></Header>
+         <Switch>
+           <Route path="/home">
+             <Home></Home>
+           </Route>
+           <Route exact path="/courses">
+             <Courses></Courses>
+           </Route>
+           <Route exact path="/about">
+             <About></About>
+           </Route>
+           <Route exact path="/contact">
+             <Contact></Contact>
+           </Route>
+           <Route path="*">
+             <NotFound></NotFound>
+           </Route>
+         </Switch>
+         <Footer></Footer>
+       </Router>
     </div>
   );
 }
