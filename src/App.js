@@ -10,7 +10,6 @@ import Home from './components/Home/Home';
 import Footer from './components/HeaderFooter/Footer';
 import Contact from './components/Contact/Contact';
 
-
 //Connected all the components with Routing.
 
 function App() {

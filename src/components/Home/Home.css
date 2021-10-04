@@ -8,6 +8,7 @@
 }
 
  h1.banner-content {
+            font-family: 'Josefin Sans', sans-serif;
             font-size: 60px;
             line-height: 70px;
             margin-top: 20px;
@@ -15,8 +16,9 @@
     }
 
 h1.banner-4 {
-        font-size: 80px;
-        line-height: 120px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 80px;
+     line-height: 120px;
 }
 p.banner-4 {
         font-size: 18px;
