@@ -3,16 +3,16 @@ import './About.css';
 
 // Font Awesome useing.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faFlag, faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
-import { Card, Col, Row } from 'react-bootstrap';
+import { faFlag, faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
+import {CardGroup, Card, Col, Row } from 'react-bootstrap';
 
 const About = () => {
     return (
       <div>
-        <div className="container text-center mt-5 mb-5">
+        <div className="pt-5 pb-5 text-center bg-info bg-opacity-10">
           <h2 className="fs-1">Who We Are</h2>
           <div>
-            <p className="text-primary fs-5"> Home / About Us</p>
+            <p className="text-primary fs-5 text-muted"> Home / About Us</p>
           </div>
         </div>
           <div className="About-banner">
@@ -48,6 +48,47 @@ const About = () => {
          </Row>
         </div>
          </div>
+         
+        <div className="professional mt-5 mb-5">
+          <div class="section-heading center-heading">
+                    <span class="subheading">Best Expert Team</span>
+                    <h3>Our Professional Team</h3>
+                    <p>The ultimate planning solution for busy women who want to reach their personal goals</p>
+                </div>
+        </div>
+        <div className="container Team-members mt-5 mb-5">
+        <Row xs={1} md={3} className="g-4">
+            <Col>
+            <Card className="">
+            <Card.Img className="cardImg" variant="top" src="http://themeturn.com/tf-db/eduhash/theme/assets/images/team/team-4.jpg" />
+            <Card.Body>
+              <Card.Title>Harish Ham</Card.Title>
+              <p className="text-muted">CEO, Developer</p>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card className="">
+            <Card.Img className="cardImg" variant="top" src="http://themeturn.com/tf-db/eduhash/theme/assets/images/team/team-1.jpg" />
+            <Card.Body>
+              <Card.Title>Tanvir Hasan</Card.Title>
+              <p className="text-muted">Market Researcher</p>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card className="">
+            <Card.Img className="cardImg" variant="top" src="http://themeturn.com/tf-db/eduhash/theme/assets/images/team/team-2.jpg" />
+            <Card.Body>
+              <Card.Title>Mikele John</Card.Title>
+              <p className="text-muted">Market Researcher</p>
+            </Card.Body>
+          </Card>
+          </Col>
+         </Row>
+        </div>
+        
+
       </div>
     );
 };

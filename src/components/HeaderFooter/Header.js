@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import logo from './logo3.png';
+import './Header.css';
 
 // Showing Header Section.
 
@@ -9,7 +11,7 @@ const Header = () => {
         <div className="Header">
           <Navbar bg="info" variant="dark">
           <Container>
-              <NavLink className="text-decoration-none fs-5" to="/home"><Navbar.Brand >EduCare</Navbar.Brand></NavLink>
+              <NavLink className="text-decoration-none fs-5" to="/home"><Navbar.Brand ><a href=""><img className="image" src={logo}/></a>EduCare </Navbar.Brand></NavLink>
               <Nav className="">
                 <NavLink className="nav text-light p-2 mr-5 text-decoration-none fs-5" to="/Home">Home</NavLink>
                 <NavLink className="nav text-light p-2 mr-5 text-decoration-none fs-5" to="/courses">Courses</NavLink>

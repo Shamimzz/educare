@@ -29,7 +29,7 @@ const Home = () => {
                    <Col className="col-md-12 col-xl-8">                    
                      <div className="banner-content text-center">                     
                           <p className="subheading text-center">Expert instruction</p>          
-                           <h1><span className="font-weight-normal pt-2 mt-2">It's time to amplify</span> your online Career</h1>                  
+                           <h1><span className="font-weight-normal pt-2 mt-2">It's Time To Amplify</span> Your Online Career</h1>                  
                        </div>
                    </Col>
                </Row>

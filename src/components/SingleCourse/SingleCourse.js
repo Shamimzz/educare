@@ -12,19 +12,17 @@ const SingleCourse = (props) => {
 
     return (
         <div> 
-          <div className="mt-5">
+          <div className="mt-5 p-2">
           <Col>
             <Card>
               <Card.Img variant="top" src={img}/>
               <Card.Body>
-               <Card.Title>{title}</Card.Title>
-                <div className="d-flex">
-                  <h2 className="p-3">{price}</h2>                           
-                  <Card.Text className="p-3 m-2">
-                    <FontAwesomeIcon className="ml-3" icon={faUser}/>      
-                    {student} Student</Card.Text>
-                </div>         
-                <Card.Text className="p-2 bg-info rounded-1 d-inline-block"> {duration}</Card.Text>
+               <Card.Title className="mb-4 mt-3">{title}</Card.Title>
+                <div className="mb-4 d-flex bg-info bg-opacity-25 justify-content-between align-items-center p-3 rounded-1">
+                  <h4 className="fw-blod">{price}</h4>                           
+                  <p className="fw-bold mb-0"><FontAwesomeIcon icon={faUser}/>  {student} Student</p>
+                  <Card.Text className="fw-bold"> {duration}</Card.Text>
+                </div>                    
                 <Card.Text>{desc}</Card.Text>
               </Card.Body> 
             </Card>

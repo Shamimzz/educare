@@ -1,0 +1,8 @@
+h2.after:after {
+    content: ' ';
+    display: block;
+    border: 1px solid #06fafa;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}

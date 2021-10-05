@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Col, FormControl, Row } from 'react-bootstrap';
+import './Contact.css';
 
 // Font Awesome.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,7 +16,7 @@ const Contact = () => {
         <div className="container mt-5 mb-5">
             <Row className="g-4">
                 <div className="row">
-                   <h4 className="mt-4 mb-4 text-center m-auto fs-2 w-50">For more information about our courses, get in touch</h4>
+                   <h4 className="after mt-4 mb-4 text-center m-auto fs-2 w-50">For more information about our courses, get in touch</h4>
                 </div>
                 <Col className="p-4 shadow-lg m-3 ">
                    <div className="p-3 m-2">
