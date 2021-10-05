@@ -1,10 +1,13 @@
 import React from 'react';
 import './About.css';
+import team1 from './team-1.jpg';
+import team2 from './team-2.jpg';
+import team3 from './team-3.jpg';
 
 // Font Awesome useing.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFlag, faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
-import {CardGroup, Card, Col, Row } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 
 const About = () => {
     return (
@@ -60,7 +63,7 @@ const About = () => {
         <Row xs={1} md={3} className="g-4">
             <Col>
             <Card className="">
-            <Card.Img className="cardImg" variant="top" src="http://themeturn.com/tf-db/eduhash/theme/assets/images/team/team-4.jpg" />
+            <Card.Img className="cardImg" variant="top" src={team1} />
             <Card.Body>
               <Card.Title>Harish Ham</Card.Title>
               <p className="text-muted">CEO, Developer</p>
@@ -69,7 +72,7 @@ const About = () => {
           </Col>
           <Col>
           <Card className="">
-            <Card.Img className="cardImg" variant="top" src="http://themeturn.com/tf-db/eduhash/theme/assets/images/team/team-1.jpg" />
+            <Card.Img className="cardImg" variant="top" src={team2} />
             <Card.Body>
               <Card.Title>Tanvir Hasan</Card.Title>
               <p className="text-muted">Market Researcher</p>
@@ -78,7 +81,7 @@ const About = () => {
           </Col>
           <Col>
           <Card className="">
-            <Card.Img className="cardImg" variant="top" src="http://themeturn.com/tf-db/eduhash/theme/assets/images/team/team-2.jpg" />
+            <Card.Img className="cardImg" variant="top" src={team3} />
             <Card.Body>
               <Card.Title>Mikele John</Card.Title>
               <p className="text-muted">Market Researcher</p>
