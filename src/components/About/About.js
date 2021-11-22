@@ -4,7 +4,7 @@ import team1 from './team-1.jpg';
 import team2 from './team-2.jpg';
 import team3 from './team-3.jpg';
 
-// Font Awesome useing.
+// Font Awesome useing...
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFlag, faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Row } from 'react-bootstrap';
